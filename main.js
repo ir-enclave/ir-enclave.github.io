@@ -14,7 +14,6 @@ $(function() {
 		"The bounty requires you to go to @locale and @mission. The target is @target, known as @firstname @lastname.However, be careful because @complication. @theme.",
 		"Your task is to travel to @locale and @mission. The target is @target, known as @firstname @lastname. You may encounter resistance in the form of @obstacle. @theme.",
 		"Your task is to travel to @locale and @mission. The target is @target. However, be careful because @complication. @theme.",
-		"The bounty requires you to protect @target on @locale from a hostile @target @reason. You may encounter resistance in the form of @obstacle. @theme.",
 		"The bounty requires you to infiltrate @group on @locale known as the @groupname1 @groupname2. You must kill them all. You may encounter difficulty in the form of @obstacle. @theme.",
         ],
         locale: [
