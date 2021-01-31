@@ -249,7 +249,7 @@ $(function() {
 		"dangerous guards",
 		"loyal guards",
 		"capable and alert guards",
-		"a bounty hunter outside of the enclave is after the target as well",
+		"a bounty hunter that is outside of the enclave is after the target as well",
 		"loyal and skilled guards",
 		"a Republic patrol",
 		"skilled guards",
