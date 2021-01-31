@@ -237,7 +237,7 @@ $(function() {
 		"the target has killed a Mandalorian and taken his beskar armor, being protected even more",
 		"the target is a former house rist member, making him very dangerous",
 		"the target is a master of stealth, being able to hide from you easily",
-		"the target is already knows that a bounty is on his head",
+		"the target already knows that a bounty is on his head and may have prepared traps",
 		"the target is imprisoned",
 		"the target has weapons and will use them against you",
 		"the target is a fantastic sniper",
