@@ -12,7 +12,6 @@ $(function() {
         ],
         template: [
 		"The bounty requires you to go to @locale and @mission. The target is @target, known as @firstname @lastname.However, be careful because @complication. @theme.",
-		"The bounty requires you to travel to @locale and obtain @asset from @target. The target's name is @firstname @lastname. You may encounter resistance in the form of @obstacle. @theme.",
 		"Your task is to travel to @locale and @mission. The target is @target, known as @firstname @lastname. You may encounter resistance in the form of @obstacle. @theme.",
 		"Your task is to travel to @locale and @mission. The target is @target. However, be careful because @complication. @theme.",
 		"The bounty requires you to protect @target on @locale from a hostile @target @reason. You may encounter resistance in the form of @obstacle. @theme.",
@@ -244,15 +243,7 @@ $(function() {
 		"the target has weapons and will use them against you",
 		"the target is a fantastic sniper",
         ],
-        asset: [
-		"information revealing Republic movements",
-		"intel regarding a Republic supply cache",
-		"intel regarding a criminal organization's supply cache",
-		"intel pertaining to the identity of a spy",
-		"the identity of a traitor",
-		"supplies",
-		"blackmail material"
-        ],
+       
         obstacle: [
 		"dangerous wildlife",
 		"guards",
