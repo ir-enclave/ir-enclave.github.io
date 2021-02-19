@@ -201,7 +201,6 @@ $(function() {
 		"owner of a small animal hospital who secretly eats the ill animals. The shop is well known in the area ",
 		"worker of a shipping company who keeps stealing money from his boss",
 		"owner of a sleazy diner who deals in secret with spice",
-		"pair of siblings who run a scrapyard and killed a hutt trooper once",
 		"politician up for re-election",
 		"politician who corrupt ways are too bad for the city",
 		"Republic deserter",
