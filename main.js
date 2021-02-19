@@ -345,6 +345,19 @@ $(function() {
 		"Grey",
 		"Small",
 		"Big",
+		"Dark",
+		"Light",
+		"Heavy",
+		"Hot",
+		"Cold",
+		"Drug",
+		"Sneaky",
+		"Mystic",
+		"Fantastic",
+		"Ugly",
+		"Beautiful",
+		"Fat"
+		"Skinny"
 		],
 		groupname2: [
 		"Eye",
@@ -358,6 +371,13 @@ $(function() {
 		"Raiders",
 		"Hand",
 		"Finger",
+		"Foot",
+	        "Botton",
+		"Ocean",
+		"Gangsters",
+		"Dealers",
+		"Haters",
+		"Radicals",
 		]
     });
 	
