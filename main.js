@@ -22,7 +22,6 @@ $(function() {
 		"Belsavis",
 		"Cademimu V",
 		"Corellia",
-		"Mandalore",
 		"Dantooine",
 		"Dromund Kaas",
 		"Hoth",
