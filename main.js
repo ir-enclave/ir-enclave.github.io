@@ -319,7 +319,7 @@ $(function() {
 		"Hose",
 		"Airnil",
 		"Brettni",
-		"Ioln"
+		"Ioln",
 		"Hippot",
 		"Judiah",
 		"Koppy",
