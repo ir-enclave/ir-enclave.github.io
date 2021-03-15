@@ -355,7 +355,7 @@ $(function() {
 		"Fantastic",
 		"Ugly",
 		"Beautiful",
-		"Fat"
+		"Fat",
 		"Skinny"
 		],
 		groupname2: [
