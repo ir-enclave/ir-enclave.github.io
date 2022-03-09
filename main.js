@@ -5,7 +5,7 @@ $(function() {
     WTF.init({
 
         heading: [
-            "[[ MANDALORIAN ENCLAVE // ACCESSING BOUNTIES... ]]<br><br>[[ BOUNTIES LOADED ]]"
+            "[[ ENCLAVE // ACCESSING BOUNTIES... ]]<br><br>[[ BOUNTIES LOADED ]]"
         ],
         response: [
            "[[ RETRIEVE BOUNTY HUNT ]]"
