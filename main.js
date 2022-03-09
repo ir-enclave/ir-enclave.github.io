@@ -5,15 +5,15 @@ $(function() {
     WTF.init({
 
         heading: [
-            "[[ ENCLAVE // ACCESSING BOUNTIES... ]]<br><br>[[ BOUNTIES LOADED ]]"
+            "[[ ENCLAVE DATABANK // ACCESSING BOUNTIES... ]]<br><br>[[ BOUNTIES LOADED ]]"
         ],
         response: [
            "[[ RETRIEVE BOUNTY HUNT ]]"
         ],
         template: [
-		"The bounty requires you to go to @locale and @mission. The target is @target, known as @firstname @lastname.However, be careful because @complication. @theme.",
-		"Your task is to travel to @locale and @mission. The target is @target, known as @firstname @lastname. You may encounter resistance in the form of @obstacle. @theme.",
-		"Your task is to travel to @locale and @mission. The target is @target. However, be careful because @complication. @theme.",
+		"You'll have to travel to @locale and @mission. The target is @target, known as @firstname @lastname. Be careful because @complication. @theme.",
+		"Go to @locale and @mission. The target is @target, known as @firstname @lastname. You may encounter resistance in the form of @obstacle. @theme.",
+		"Your Bounty requires you to go to @locale and @mission. The target is @target. Do not let your guard down, because @complication. @theme.",
 		"The bounty requires you to infiltrate @group on @locale known as the @groupname1 @groupname2. You must kill them all. You may encounter difficulty in the form of @obstacle. @theme.",
         ],
         locale: [
@@ -37,17 +37,13 @@ $(function() {
 		"Zakuul"
         ],
         mission: [
-		"assassinate the target",
+		"assassinate the target silently",
 		"kill the target",
-		"arrest the target",
-		"capture the target",
+		"eleminate the target",
+		"capture the target alive",
 		"find and eleminate the target",
-		"find and capture the target",
-		"kidnap the target",
-		"find the target and bring him back, dead or alive",
-		"get the target alive to the contract giver",
-		"get the targets head back to the contract giver",
-		"end the targets life",
+		"find and capture the target alive",
+		"find the target and bring them to the Enclave, dead or alive",
         ],
         behavior: [
 	        "an abrasive",
@@ -227,32 +223,26 @@ $(function() {
         ],
         complication: [
 		"the target has a blaster and knows how to use it",
-		"the target keeps exotic animals as security",
 		"an unidentified person close to the target is a highly trained bodyguard",
-		"the target is about to leave the planet in a few days",
-		"the target is armed and dangerous",
+		"the target is about to leave the planet in a few days, possibly never to be seen again",
 		"the target is an echani and very skilled in hand to hand combat",
-		"the target has killed a Mandalorian and taken his beskar armor, being protected even more",
-		"the target is a former house rist member, making him very dangerous",
-		"the target is a master of stealth, being able to hide from you easily",
+		"the target is an Ex-Mandalorian and still has his Beskar Armor. Be sure to return it to the Enclave",
 		"the target already knows that a bounty is on his head and may have prepared traps",
-		"the target is imprisoned",
-		"the target has weapons and will use them against you",
-		"the target is a fantastic sniper",
+		"the target is inside a republic prison. You might have to sneak in there",
+		"the target is a fantastic sniper and a master of stealth"
         ],
        
         obstacle: [
 		"dangerous wildlife",
 		"guards",
-		"dangerous guards",
-		"loyal guards",
-		"capable and alert guards",
-		"a bounty hunter that is outside of the enclave is after the target as well",
-		"loyal and skilled guards",
-		"a Republic patrol",
-		"skilled guards",
-		"poorly trained guards",
-		"a rioting populace"
+		"Two Ex-Mandalorian Guards, though without their beskar.",
+		"Three Ex-Mandalorian Guards, though without their beskar.",
+		"Two Mercenary Guards, though with heavy durasteel armor.",
+		"Three Mercenary Guards, all armed with heavy weapons.",
+		"loyal bodyguards, that would do anything to protect your target",
+		"a Bounty Hunter, that is outside of the enclave, and is after the target too. He is going to try to kill you, unless you manage to make a deal with him",
+		"a Mandalorian Bounty Hunter, that is outside of the enclave, and is after the target too. He is going to try to kill you, unless you manage to make a deal with him",
+		
         ],
         reason: [
 		"who is out for revenge",
@@ -302,6 +292,11 @@ $(function() {
 		"Alo",
 		"Siuwq",
                 "Ding", 
+		"Plo",
+		"Pees",
+		"Ysu",
+		"Iden"
+	
 		],
 		lastname: [
 		"Kalopne",
@@ -331,6 +326,8 @@ $(function() {
 		"Beenop",
 		"Niona",
 		"Mimip",
+		"Clean",
+		"Osam"
 		],
 		groupname1: [
 		"Black",
@@ -377,6 +374,9 @@ $(function() {
 		"Dealers",
 		"Haters",
 		"Radicals",
+		"Mandos, though they aren't and never were Mandos.",
+		"Assassins",
+		"Hunters"
 		]
     });
 	
