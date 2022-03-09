@@ -224,9 +224,7 @@ $(function() {
 		"who suspects the target is an Imperial contact"
         ],
         theme: [
-		"Talk to the contract giver for more details. The coordinates to them are attached.",
-		"A hutt hired you to do this. Do not disappoint him and feel free to travel to him for more details.",
-		"Attached is the holo number of the contract giver",
+		
 		"Good luck. This is your chance to make yourself a name",
 		"Leave no witnesses",
 		"Be careful and good luck, Hunter",
