@@ -177,7 +177,6 @@ $(function() {
 		"smuggler",
 		"ex imperial soldier, who betrayed the empire",
 		"spice dealer",
-		"swoop racer"
         ],
         group: [
 		"a criminal syndicate",
